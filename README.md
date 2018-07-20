@@ -1,7 +1,6 @@
 # aiphoto
 Red neuronal para mejorar la calidad de las fotos.
 
-
 ## Descripción
 En este repositorio se puede encontrar en *Jupyter notebook* con el código de una red neuronal convolucional desarrollada con Tensorflow (Keras). Esta red se encarga de corregir mala calidad en las fotos (desenfoque y ruido).
 
@@ -36,4 +35,8 @@ Algunos ejemplos son (izquierda, corregida y derecha, empeorada):
 
 
 
+## TODO
 
+* Configurar nuevas arquitecturas
+* Probar más y diferentes conjuntos de entrenamiento
+* Modificar el método `make_image` para que haga un "gradiente" de opacidad en los límites de cada "cuadrado" para evitar que en algunas fotos salgan "mallas" (debido al padding de los filtros de la red).
